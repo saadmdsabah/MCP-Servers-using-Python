@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "calculator-local-mcp-server": {
+      "command": "D:/mcp-using-fastmcp/.venv/Scripts/python.exe",
+      "args": ["D:/mcp-using-fastmcp/calculator.py"]
+    },
+    "calculator-http-based-server": {
+      "url": "http://localhost:8000/mcp"
+    },
+    "weather-tool": {
+      "url": "http://localhost:8080/mcp"
+    },
+    "google-news-parser": {
+      "url": "http://localhost:8081/mcp"
+    }
+  }
+}
